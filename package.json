@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && yarn start",
     "start": "node dist/main.js",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/main.js\""
   },
